@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FontIconSample.MainPage">
+    <Grid ColumnDefinitions="*,*">
+        <Label Text="IconText"
+               Grid.Column="0" />
+        <Label Text="&#xe701;"
+               Grid.Column="1"
+               FontFamily="Treeview_ExpanderIcon" />
+    </Grid>
+</ContentPage>
